@@ -1,0 +1,112 @@
+body{
+    margin:auto;
+    padding:0;
+    width:50%;
+    min-height: 20cm;
+    background: url(picture/bus.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;
+}
+
+.inbox{
+width: 320px;
+height: 420px;
+background: wheat;
+color:blue;
+top: 50%;
+left: 50%;
+position:absolute;
+transform: translate(-50%,-30%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+
+.person{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align:center;
+    font-size: 22px;
+}
+
+.inbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.inbox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inbox input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#000000;
+    font-size: 16px;
+}
+
+.inbox input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#000000;
+    font-size: 16px;
+}
+
+.inbox inut[type="submit"]{
+    border: none;
+    outline:none;
+    height: 40px;
+    background: orangered;
+    color: rgb(0, 119, 128);
+    font-size:20px;
+    border-radius: 40px;
+}
+
+.inbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: purple;
+    color:#000;
+}
+
+.inbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: red;
+}
+
+.inbox a:hover
+{
+    color: yellow;
+}
+
+.mean{
+    width: 43px;
+    top: 0px;
+    left: 50px;
+    transform: translate(100%,5%);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.mean a{
+    text-decoration: none;
+}
